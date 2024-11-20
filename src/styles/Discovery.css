@@ -1,0 +1,132 @@
+/* CSS */
+.discovery-section {
+    background: linear-gradient(to bottom right, #ffffff, #f7f7f7);
+    padding: 100px 0;
+    text-align: center;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .discovery-content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 2px solid #008080;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .badge:hover {
+    transform: scale(1.05);
+  }
+  
+  .see-more-link {
+    margin-left: 10px;
+    color: #008080;
+    font-weight: 600;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .see-more-link:hover {
+    color: #005555;
+  }
+  
+  .discovery-heading {
+    font-size: 2.8rem;
+    margin-top: 1.5rem;
+    color: #333;
+    font-weight: 700;
+  }
+  
+  .discovery-lead {
+    font-size: 1.6rem;
+    color: #666;
+    margin: 20px 0 40px;
+  }
+  
+  .button-group {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .button-primary, .button-secondary {
+    display: inline-block;
+    padding: 15px 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .button-primary {
+    background-color: #008080;
+    color: #ffffff;
+  }
+  
+  .button-primary:hover {
+    background-color: #005555;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .button-secondary {
+    background-color: #c0c0c0;
+    color: #333;
+  }
+  
+  .button-secondary:hover {
+    background-color: #999;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .discovery-heading {
+      font-size: 2.2rem;
+    }
+    .discovery-lead {
+      font-size: 1.4rem;
+    }
+    .button-primary, .button-secondary {
+      padding: 12px 24px;
+      margin-bottom: 15px;
+    }
+    .discovery-content {
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .discovery-heading {
+      font-size: 1.8rem;
+    }
+    .discovery-lead {
+      font-size: 1.2rem;
+    }
+    .button-primary, .button-secondary {
+      padding: 10px 20px;
+    }
+    .discovery-content {
+      padding: 20px;
+    }
+  }
+  
